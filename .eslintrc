@@ -1,0 +1,35 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "semi": [2, "never"],
+    "react/require-default-props": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react/jsx-indent-props": [2, "tab"],
+    "object-curly-newline": 0,
+    "function-paren-newline": 0,
+    "indent": [2, "tab"],
+    "react/jsx-indent": [2, "tab"],
+    "no-tabs": [0],
+    "max-len": [0],
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
+  },
+
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "./src"
+        ]
+      }
+    }
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "navigator": true
+  },
+  "env": {
+    "jest": true,
+    "browser": true
+  }
+}
