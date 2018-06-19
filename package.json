@@ -36,26 +36,26 @@
   "dependencies": {
     "normalize.css": "^8.0.0",
     "polished": "^1.9.2",
-    "prop-types": "^15.6.1",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "sanitize.css": "^5.0.0",
-    "styled-components": "^3.3.0",
-    "styled-system": "^2.2.5",
-    "system-components": "^2.0.3"
+    "styled-components": "^3.3.2",
+    "styled-system": "^2.3.1",
+    "system-components": "^2.2.1"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.8.2",
+    "eslint-plugin-react": "^7.9.1",
     "husky": "^0.14.3",
-    "lint-staged": "^7.1.2",
-    "react-styleguidist": "^7.0.14"
+    "lint-staged": "^7.2.0",
+    "react-styleguidist": "^7.0.17"
   },
   "lint-staged": {
     "*.js": [
