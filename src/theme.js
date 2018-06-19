@@ -5,16 +5,16 @@ import { injectGlobal } from 'styled-components'
 const space = [0, 2, 4, 8, 16, 32, 64, 128, 256, 512]
 
 const theme = {
-	space,
+  space,
 }
 
 export default theme
 
 injectGlobal`
-	html,
-	body {
-		font-smoothing: antialiased;
-		-webkit-font-smoothing: antialiased;
-		min-height: 100vh;
-	}
+  html,
+  body {
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
 `

@@ -5,15 +5,15 @@ import theme from 'theme'
 import Home from 'routes/Home'
 import NotFound from 'routes/NotFound'
 
-const App = () =>	(
-	<ThemeProvider theme={theme}>
-		<Router>
-			<Switch>
-				<Route path="/" exact component={Home} />
-				<Route component={NotFound} />
-			</Switch>
-		</Router>
-	</ThemeProvider>
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route component={NotFound} />
+      </Switch>
+    </Router>
+  </ThemeProvider>
 )
 
 export default App

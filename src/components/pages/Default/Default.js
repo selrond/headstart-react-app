@@ -5,15 +5,15 @@ import Header from './Header'
 import Sidebar from './Sidebar'
 
 const Default = ({ children }) => (
-	<DefaultTemplate
-		Header={<Header />}
-		Body={children}
-		Sidebar={<Sidebar />}
-	/>
+  <DefaultTemplate
+    Header={<Header />}
+    Body={children}
+    Sidebar={<Sidebar />}
+  />
 )
 
 Default.propTypes = {
-	children: PropTypes.node,
+  children: PropTypes.node,
 }
 
 export default Default
