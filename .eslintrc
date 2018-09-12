@@ -7,7 +7,8 @@
     "object-curly-newline": 0,
     "function-paren-newline": 0,
     "max-len": [0],
-    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
   },
 
   "settings": {

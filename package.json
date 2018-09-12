@@ -4,10 +4,10 @@
   "description": "React starter kit",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_PATH=src/ react-scripts start",
-    "build": "NODE_PATH=src/ react-scripts build",
-    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "start": "NODE_PATH=src/ react-app-rewired start",
+    "build": "NODE_PATH=src/ react-app-rewired build",
+    "test": "NODE_PATH=src/ react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject",
     "styleguide": "NODE_PATH=src/ npx styleguidist server",
     "styleguide:build": "NODE_PATH=src/ npx styleguidist build",
     "precommit": "lint-staged",
@@ -35,32 +35,46 @@
   "homepage": "https://github.com/selrond/react-headstarter#readme",
   "dependencies": {
     "normalize.css": "^8.0.0",
-    "polished": "^1.9.2",
+    "polished": "^2.0.3",
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "sanitize.css": "^5.0.0",
-    "styled-components": "^3.3.2",
-    "styled-system": "^2.3.1",
-    "system-components": "^2.2.1"
+    "react-scripts": "^2.0.0-next.a671462c",
+    "sanitize.css": "^7.0.3",
+    "styled-components": "^3.4.6",
+    "styled-system": "^3.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.12.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1",
+    "babel-plugin-styled-components": "^1.7.1",
+    "docz": "^0.11.2",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
     "husky": "^0.14.3",
-    "lint-staged": "^7.2.0",
-    "react-styleguidist": "^7.0.17"
+    "lint-staged": "^7.2.2",
+    "react-app-rewired": "^1.6.2"
   },
   "lint-staged": {
     "*.js": [
       "./node_modules/.bin/eslint --fix",
       "git add"
+    ]
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
     ]
   }
 }
