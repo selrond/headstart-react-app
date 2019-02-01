@@ -1,5 +1,5 @@
 {
-  "name": "react-headstarter",
+  "name": "headstart-react-app",
   "version": "0.0.1",
   "description": "Create react App. Headstarted.",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://selrond@github.com/selrond/react-headstarter.git"
+    "url": "git+https://selrond@github.com/selrond/headstart-react-app.git"
   },
   "keywords": [
     "react",
@@ -30,9 +30,9 @@
   "author": "Sebastian Andil <sebastian.andil@gmail.com> (https://twitter.com/selrond)",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/selrond/react-headstarter/issues"
+    "url": "https://github.com/selrond/headstart-react-app/issues"
   },
-  "homepage": "https://github.com/selrond/react-headstarter#readme",
+  "homepage": "https://github.com/selrond/headstart-react-app#readme",
   "dependencies": {
     "polished": "^2.2.0",
     "prop-types": "^15.6.2",
