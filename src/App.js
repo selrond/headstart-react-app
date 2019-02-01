@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { ThemeProvider, createGlobalStyle } from 'styled-components'
+import { ThemeProvider, createGlobalStyle } from 'styled-components/macro'
 import theme from 'theme'
 import Home from 'routes/Home'
 import NotFound from 'routes/NotFound'
