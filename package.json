@@ -43,7 +43,6 @@
   },
   "devDependencies": {
     "babel-plugin-macros": "^2.4.5",
-    "docz": "^0.13.7",
     "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.16.0",
