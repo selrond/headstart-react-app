@@ -8,8 +8,6 @@
     "build": "NODE_PATH=src/ react-app-rewired build",
     "test": "NODE_PATH=src/ react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject",
-    "styleguide": "NODE_PATH=src/ npx styleguidist server",
-    "styleguide:build": "NODE_PATH=src/ npx styleguidist build",
     "precommit": "lint-staged",
     "lint": "./node_modules/.bin/eslint --fix ."
   },
@@ -24,8 +22,7 @@
     "eslint",
     "starter-kit",
     "boilerplate",
-    "react-router",
-    "styleguide"
+    "react-router"
   ],
   "author": "Sebastian Andil <sebastian.andil@gmail.com> (https://twitter.com/selrond)",
   "license": "Unlicense",
