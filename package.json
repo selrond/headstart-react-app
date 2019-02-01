@@ -34,28 +34,27 @@
   },
   "homepage": "https://github.com/selrond/headstart-react-app#readme",
   "dependencies": {
-    "polished": "^2.2.0",
     "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.0.5",
+    "react-scripts": "^2.1.3",
     "sanitize.css": "^8.0.0",
-    "styled-components": "^4.0.2",
-    "styled-system": "^3.1.11"
+    "styled-components": "^4.1.3",
+    "styled-system": "^3.2.1"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.8.0",
-    "docz": "^0.12.5",
-    "eslint": "^5.7.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "docz": "^0.13.7",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
-    "husky": "^1.1.2",
-    "lint-staged": "^7.3.0",
-    "react-app-rewired": "^1.6.2"
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.1",
+    "react-app-rewired": "^2.0.3"
   },
   "lint-staged": {
     "*.js": [
